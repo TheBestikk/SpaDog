@@ -2,11 +2,15 @@
 
 body{
     font-family: "Raleway", sans-serif;
-    font-weight: 400;
-    font-size: 24px;
     color: #000;
+    background-color: #fff;
     padding: 0px;
     margin: 0px;
+}
+
+h1, h2, h3, a, ul, li, p{
+    font-weight: 400;
+    font-size: 24px;
 }
 
 a{
@@ -19,8 +23,10 @@ ul{
 }
 
 .button{
+    font-size: 24px;
     cursor: pointer;
     font-family: "Oswald", sans-serif;
+    border-radius: 5px;
     padding: 15px 90px;
 }
 
@@ -51,3 +57,95 @@ ul{
 }
 
 /* banner */
+
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+}
+
+.banner-title{
+    font-size: 64px;
+    line-height: 1.5;
+}
+
+.banner-span-title{
+    font-weight: 700;
+}
+
+.banner-btn{
+    border: none;
+    border-radius: 5px;
+    background-color: #B2FFA6;
+}
+
+/* about */
+
+.about{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: #efefef;
+}
+
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-title{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.about-text{
+    font-size: 32px;
+    width: 800;
+    margin-bottom: 60px;
+}
+
+.about-btn {
+    border: none;
+    background-color: #B2FFA6;
+}
+
+/* fauna */
+
+.fauna{
+    padding: 60px 0px;
+}
+
+.fauna-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fauna-list{
+    width: 920px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fauna-item{
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-title{
+    width: 271px;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.item-text{
+    width: 330px;
+}
+
+.item-icon{
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+}
