@@ -27,7 +27,7 @@ ul{
     cursor: pointer;
     font-family: "Oswald", sans-serif;
     border-radius: 5px;
-    padding: 15px 90px;
+    padding: 15px 80px;
 }
 
 .container{
@@ -126,26 +126,92 @@ ul{
     width: 920px;
     display: flex;
     flex-wrap: wrap;
+    gap: 100px;
 }
 
 .fauna-item{
     width: 410px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .item-title{
-    width: 271px;
+    width: 300px;
     font-weight: 700;
     font-size: 32px;
 }
 
 .item-text{
     width: 330px;
+    margin-left: 65px;
 }
 
 .item-icon{
+    margin-top: 25px;
     margin-right: 15px;
     width: 50px;
     height: 50px;
+}
+
+
+/* service */
+
+.service{
+    padding: 60px 0px;
+    background-color: #EFEFEF;
+}
+
+.service-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.service-title{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.service-text{
+    font-size: 32px;
+    text-align: center;
+    width: 1346px;
+}
+
+.service-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 80px;
+}
+
+.service-desc{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.service-btn{
+    border: 3px solid #b2ffa6;
+}
+
+
+/* footer */
+
+.footer{
+    padding: 36px 0px;
+    background-color: #121212;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 880px;
+}
+
+.footer-copyright{
+    color: #fff;
 }
