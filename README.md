@@ -3,6 +3,7 @@
 __I asked my mentor for this project to gain experience and fill my portfolio with projects, so it does not have a commercial purpose.__
 _____
 ## [Unrealized]
+#### Maybe all xd
 ___
 ## Authors project
 * __TheBestikk__ ([Kirill github](https://github.com/TheBestikk))
